@@ -1,0 +1,82 @@
+.formSection {
+  width: 100%;
+  height: auto;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.formInner {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+}
+
+.formTitle {
+  font-size: 90px;
+  color: #3a22fd;
+}
+
+.formMail {
+  color: rgba(0, 0, 0, 0.596);
+}
+
+label {
+  color: #3a22fd;
+  font-size: 12px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 25px 0;
+  display: inline-block;
+  -moz-border: none;
+  -webkit-border: none;
+  border: none;
+  border-bottom: 1px solid #3a22fd;
+}
+
+.formMessage {
+  height: 90px;
+}
+
+.formBtn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  width: fit-content;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3a22fd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.formBtn:hover {
+  background: #5542ff;
+  text-decoration: none;
+}
+.formLayout {
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .formInner {
+    flex-direction: column;
+  }
+
+  .formTitle {
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .formText {
+    margin-bottom: 50px;
+  }
+
+  .formSection{
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,98 @@
+/* Navbar styling */
+
+.navbar {
+  display: flex;
+  position: fixed;
+  background: #00e9be;
+  margin: auto;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+}
+
+.navbarInner {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+
+  font-size: 40px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.navLinkThree{
+  margin-right: 70px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: larger;
+}
+
+
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-size: larger;
+  color: #ffffff;
+  background: #3a22fd;
+  padding: 9px 30px 8px 30px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5341fa;
+  text-decoration: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1077px) {
+  .navLinks {
+    font-size: 13px;
+  }
+
+  .navLinkThree{
+    margin-right: 40px;
+  }
+
+}
+
+@media screen and (max-width: 948px) {
+
+  .navLinks{
+    display: none;
+  }
+
+  .navLinkThree{
+    margin-right: 60px;
+  }
+
+}
+
+@media screen and (max-width: 488px){
+  .navbarInner{
+    justify-content: space-between;
+  }
+
+  .btn{
+    font-size: 15px;
+    padding: 7px 20px 7px 20px;
+
+  }
+}
+

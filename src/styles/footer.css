@@ -1,0 +1,65 @@
+.footerSection{
+    position: absolute;
+    width: 100%;
+    flex-direction: row;
+    background: #3a22fd url(../images/footer-mockup.webp) no-repeat;
+    background-size: 800px ;
+    background-position: right bottom;
+    height: auto;
+}
+
+.footerInner{
+    margin: auto;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.footerHead{
+    color: white;
+    font-size: 80px;
+}
+
+.footerText{
+    margin-top: 50px;
+    color: white;
+}
+
+.logoPlay{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.logoApple{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.footerLogo{
+    width: auto;
+    height: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .footerSection{
+        background-size: 500px ;
+    }
+}
+
+@media screen and (max-width: 680px){
+
+    .footerHead{
+        font-size: 30px;
+    }
+
+    .footerSection{
+        background-size: 300px ;
+    }
+}

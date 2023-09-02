@@ -1,0 +1,101 @@
+.workSection {
+  width: 100%;
+  height: auto;
+}
+
+.workContent {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.workTitle {
+  font-size: 80px;
+  color: #3a22fd;
+}
+
+.workCards {
+  margin-top: 100px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workCard {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+.card {
+  display: flex;
+  margin-left: 50px;
+  inline-size: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage {
+  height: 400px;
+  padding: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  align-items: center;
+  margin-right: auto;
+  width: 85%;
+  margin-bottom: 80px;
+}
+
+.cardTitle {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #3a22fd;
+  font-weight: 500;
+}
+
+.cardPara{
+    word-spacing: 2px;
+    font-size: 18px;
+    color: #00000093;
+}
+
+@media screen and (max-width: 1200px) {
+  .workCard {
+    flex-direction: column;
+  }
+
+  .right {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+    .cardTitle{
+        font-size: 28px;
+    }
+    .card{
+        margin-left: 0;
+        inline-size: auto;
+    }
+    .workTitle{
+        font-size: 50px;
+    }
+    .cardImage {
+        height: 330px;
+        padding: 0;
+      }
+      .workCards{
+        width: 100%;
+      }
+}
